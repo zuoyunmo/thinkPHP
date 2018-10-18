@@ -18,9 +18,10 @@ class IndexAction extends Action {
             http://localhost:8000/php/index.php?s=/Index/user/id/1.shtml
         */
 
-        echo C('URL_MODEL').'<br/>';
+        // echo C('URL_MODEL').'<br/>';
         //U('模块/方法',array('id'=>1),'html/htm/shtml',true/false,'localhost')
-        echo U('Index/user',array('id'=>1),'html',false,'localhost:8000');
+        // echo U('Index/user',array('id'=>1),'html',false,'localhost:8000');
+        show();
 
     }
 
