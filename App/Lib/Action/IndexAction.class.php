@@ -21,8 +21,14 @@ class IndexAction extends Action {
         // echo C('URL_MODEL').'<br/>';
         //U('模块/方法',array('id'=>1),'html/htm/shtml',true/false,'localhost')
         // echo U('Index/user',array('id'=>1),'html',false,'localhost:8000');
-        show();
+        // show();
+        $arr=array(1,2,3,4,5);
+        var_dump($arr).'<br>';
+        dump($arr);
 
+
+
+        
     }
 
     public function user(){
